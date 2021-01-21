@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>迷鹿-登录</title>
+  <link rel="stylesheet" href="../css/初始化样式/normalize.css" />
+  <link rel="stylesheet" href="../css/初始化样式/body.css">
+  <link rel="stylesheet" href="../css/登录注册/register.css">
+</head>
+
+<body>
+  <div class="registrations-wrapper">
+    <div class="registrations-container">
+      <div class="registrations-left-panel">
+        <div class="registrations__content">
+          <div>
+            <img class="registrations__logo" src="../image/logoWhite.png" alt="">
+          </div>
+          <div>
+            <h1 class="registrations__title">创作从这里开始</h1>
+            <h2 class="registrations__sub-title">访问免费的高分辨率照片，这些都是其他地方所找不到的</h2>
+          </div>
+          <div>
+            <p class="registrations__credit">
+              迷路中悠然自得——迷鹿
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="registrations-right-panel">
+        <div class="registrations-form">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="text-center">
+                <div class="alpha">
+                  加入LostElk——迷鹿
+                </div>
+                <p>
+                  已经有帐号了？
+                  <a href="#">
+                    <span class="text-secondary">
+                      登录
+                    </span>
+                  </a>
+                </p>
+              </div>
+              <div class="form">
+                <form action="" accept-charset="UTF-8" method="post">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <div class="form-group">
+                        <label for="user_first_name">
+                          名字
+                          <span class="text-secondary">
+                            （可选）
+                          </span>
+                        </label>
+                        <input class="form-control" type="text" name="user[first_name]" id="user_first_name">
+                      </div>
+                    </div>
+                    <div class="col-xs-6">
+                      <div class="form-group">
+                        <label for="user_last_name">
+                          姓
+                          <span class="text-secondary">
+                            （可选）
+                          </span>
+                        </label>
+                        <input class="form-control" type="text" name="user[last_name]" id="user_last_name">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="user_email">
+                      电子邮件地址
+                      <span class="text-secondary">
+                        （可选）
+                      </span>
+                    </label>
+                    <input class="form-control" type="email" value="" name="user[email]" id="user_email">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="user_username">
+                      用户名
+                      <span class="text-secondary">
+                        （仅字母，数字和下划线。）
+                      </span>
+                    </label>
+                    <input class="form-control" pattern="[a-zA-Z0-9_]*[a-zA-Z][a-zA-Z0-9_]*" required="required"
+                      type="text" placeholder="用于登录账号使用,请牢记" name="user[username]" id="user_username">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="user_password">
+                      密码
+                      <span class="text-secondary">
+                        （最少6个字符）
+                      </span>
+                    </label>
+                    <input autocomplete="off" minlength="6" class="form-control" required="required" type="password"
+                      name="user[password]" id="user_password">
+                  </div>
+
+                  <div class="form-groug">
+                    <a href="#" class="form-btn">
+                      加入
+                    </a>
+                  </div>
+                  <span class="text-secondary zeta">
+                    加入即表示您同意 <a href="#">条款</a> 和 <a href="#">隐私政策</a>。
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
