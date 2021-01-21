@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <title>迷鹿-登录</title>
+  <link rel="stylesheet" href="../css/初始化样式/normalize.css" />
+  <link rel="stylesheet" href="../css/初始化样式/body.css">
+  <link rel="stylesheet" href="../css/登录注册/login.css">
+</head>
+
+<body>
+  <div class="login-wrapper">
+    <div class="login-form">
+      <div class="text-center">
+        <div class="login-logo">
+          <img src="../image/mil.jpg" alt="">
+        </div>
+        <h1 class="login-title">登录</h1>
+        <p class="login-subtitle">欢迎回来 ~</p>
+      </div>
+      <div class="from">
+        <form action="">
+          <div class="form-group">
+            <label for="user_username">
+              用户名
+            </label>
+            <input class="form-control" pattern="[a-zA-Z0-9_]*[a-zA-Z][a-zA-Z0-9_]*" required="required" type="text"
+              name="user[username]" id="user_username">
+          </div>
+
+          <div class="form-group">
+            <label for="user_password">
+              密码
+            </label>
+            <input autocomplete="off" minlength="6" class="form-control" required="required" type="password"
+              name="user[password]" id="user_password">
+          </div>
+
+          <div class="form-groug">
+            <a href="#" class="form-btn">
+              登录
+            </a>
+          </div>
+          <p class="register">
+            还没有帐号？
+            <span class="text-secondary">
+              <a href="#">加入</a>
+            </span>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
