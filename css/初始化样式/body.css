@@ -34,3 +34,7 @@ html {
 *:after {
 	box-sizing: inherit;
 }
+
+input {
+	outline: none;
+}
