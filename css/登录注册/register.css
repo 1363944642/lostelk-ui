@@ -126,6 +126,11 @@
 	margin-bottom: 30px;
 }
 
+.form-group input:focus {
+	outline: none;
+	border-color: #000;
+}
+
 .form-control {
 	display: block;
 	width: 100%;
