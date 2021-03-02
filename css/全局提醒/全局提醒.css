@@ -4,6 +4,7 @@
 	background: rgba(226, 92, 61, 0.95);
 	color: #fff;
 	display: block;
+	z-index: 9999;
 	height: 58px;
 	line-height: 58px;
 	text-align: center;
@@ -35,6 +36,8 @@
 	width: 40px;
 	cursor: pointer;
 	font-weight: 200;
+	font-size: 21px;
+	opacity: 0.7;
 }
 
 /* This bridges the gap so you can mouse into the tooltip without it disappearing */
