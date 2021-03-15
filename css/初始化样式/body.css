@@ -38,3 +38,7 @@ html {
 input {
 	outline: none;
 }
+
+* {
+	box-sizing: border-box;
+}
