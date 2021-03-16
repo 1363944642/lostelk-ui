@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../css/首页/home-page-main-reconsitution.css" />
   <link rel="stylesheet" href="../css/首页/home-page-reconsitution.css" />
   <link rel="stylesheet" href="../css/初始化样式/footer.css">
+  <link rel="stylesheet" href="../css/首页/search.css">
   <script src="../font/iconfont.js"></script>
 </head>
 
@@ -22,9 +23,14 @@
   <div class="home-page">
     <!-- 顶部导航 -->
     <div class="header">
-      <div class="searchBox">
-        <input type="text">
-      </div>
+      <form class="header-search-box">
+        <label class="header-search-button" for="header-search">
+          <svg class="icon icon-size-fill search-button-20" aria-hidden="true">
+            <use xlink:href="#icon-sousuo"></use>
+          </svg>
+        </label>
+        <input type="text" id="header-search" placeholder="search photos">
+      </form>
       <div class="header_toolbar">
         <!-- 登陆前样式 -->
         <!-- <div class="header_loginRegister_item">
@@ -34,6 +40,11 @@
 					<a href="./注册.html">注册</a>
 				</div> -->
         <!-- 登陆后样式 -->
+        <div class="header_toolbar_item header_toolbar_item_size-24">
+          <svg class="icon icon-size-fill search-button-24" aria-hidden="true">
+            <use xlink:href="#icon-sousuo"></use>
+          </svg>
+        </div>
         <div class="header_toolbar_item header_toolbar_item_size-24">
           <div class="dropdown">
             <a href="#" class="dropbtn">
@@ -47,13 +58,6 @@
               <a href="#">退出登录</a>
             </div>
           </div>
-        </div>
-        <div class="header_toolbar_item header_toolbar_item_size-24">
-          <a href="#">
-            <svg class="icon icon-size-fill" aria-hidden="true">
-              <use xlink:href="#icon-celanliebiaogengduo"></use>
-            </svg>
-          </a>
         </div>
       </div>
     </div>
@@ -77,6 +81,33 @@
     </div>
     <!-- 主体 -->
     <div class="home-page_main">
+      <div class="main-search">
+        <img src="../image/bg1.jpeg" alt="">
+        <div class="main-search-superstratum">
+          <div class="search-superstratum-center">
+            <div class="search-superstratum-content">
+              <span>LostElk</span>
+              <div>
+                <h1>The internet’s source of freely-usable images.</h1>
+                <p>Powered by creators everywhere.</p>
+              </div>
+              <form class="main-search-box">
+                <label class="main-search-button" for="main-search">
+                  <svg class="icon icon-size-fill search-button-32" aria-hidden="true">
+                    <use xlink:href="#icon-sousuo"></use>
+                  </svg>
+                </label>
+                <input type="text" id="main-search" placeholder="search photos">
+              </form>
+            </div>
+          </div>
+          <div class="search-buttom">
+            <span>This photo is from user <a href="#">麋鹿</a></span>
+            <span>LostElk</span>
+            <span>Start your website with LostElk today.</span>
+          </div>
+        </div>
+      </div>
       <div class="main_center">
         <div class="home-page_main_cards">
           <div class="cardColumn">
